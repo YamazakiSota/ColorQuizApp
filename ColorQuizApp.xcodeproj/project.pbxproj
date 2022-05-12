@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DCB58CA64344F550943D106 /* Pods_ColorQuizApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0506123F5628184839A613BC /* Pods_ColorQuizApp.framework */; };
+		E403ABC427EABE0E001CAAA5 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E403ABC327EABE0E001CAAA5 /* AppTrackingTransparency.framework */; };
+		E4988E7327C239780016F29A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4988E7227C239780016F29A /* AppDelegate.swift */; };
+		E4988E7527C239780016F29A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4988E7427C239780016F29A /* SceneDelegate.swift */; };
+		E4988E7727C239780016F29A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4988E7627C239780016F29A /* ViewController.swift */; };
+		E4988E7A27C239780016F29A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4988E7827C239780016F29A /* Main.storyboard */; };
+		E4988E7C27C2397C0016F29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4988E7B27C2397C0016F29A /* Assets.xcassets */; };
+		E4988E7F27C2397C0016F29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4988E7D27C2397C0016F29A /* LaunchScreen.storyboard */; };
+		E4988E8727C23D320016F29A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4988E8627C23D310016F29A /* QuizViewController.swift */; };
+		E4988E8927C23DEB0016F29A /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4988E8827C23DEB0016F29A /* ScoreViewController.swift */; };
+		E4988E8B27C23FE00016F29A /* Quiz1.csv in Resources */ = {isa = PBXBuildFile; fileRef = E4988E8A27C23FDF0016F29A /* Quiz1.csv */; };
+		E4988E8F27C2739A0016F29A /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E8D27C2739A0016F29A /* correct.png */; };
+		E4988E9027C2739A0016F29A /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E8E27C2739A0016F29A /* incorrect.png */; };
+		E4988E9727C275FD0016F29A /* ruriiro.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E9227C275FD0016F29A /* ruriiro.png */; };
+		E4988E9827C275FD0016F29A /* sorairo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E9327C275FD0016F29A /* sorairo.png */; };
+		E4988E9927C275FD0016F29A /* ao.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E9427C275FD0016F29A /* ao.png */; };
+		E4988E9A27C275FD0016F29A /* mizuiro.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E9527C275FD0016F29A /* mizuiro.png */; };
+		E4988E9B27C275FD0016F29A /* rurikon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4988E9627C275FD0016F29A /* rurikon.png */; };
+		E4988E9D27C27CEA0016F29A /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4988E9C27C27CE90016F29A /* SelectLevelViewController.swift */; };
+		E4988E9F27C27FB30016F29A /* Quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = E4988E9E27C27FB30016F29A /* Quiz2.csv */; };
+		E4988EA127C27FC50016F29A /* Quiz3.csv in Resources */ = {isa = PBXBuildFile; fileRef = E4988EA027C27FC50016F29A /* Quiz3.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0506123F5628184839A613BC /* Pods_ColorQuizApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorQuizApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CFED424F7753A214DE4757 /* Pods-ColorQuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorQuizApp.release.xcconfig"; path = "Target Support Files/Pods-ColorQuizApp/Pods-ColorQuizApp.release.xcconfig"; sourceTree = "<group>"; };
+		E403ABC327EABE0E001CAAA5 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		E4988E6F27C239780016F29A /* ColorQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4988E7227C239780016F29A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4988E7427C239780016F29A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E4988E7627C239780016F29A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4988E7927C239780016F29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4988E7B27C2397C0016F29A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4988E7E27C2397C0016F29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4988E8027C2397C0016F29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4988E8627C23D310016F29A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		E4988E8827C23DEB0016F29A /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		E4988E8A27C23FDF0016F29A /* Quiz1.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz1.csv; sourceTree = "<group>"; };
+		E4988E8D27C2739A0016F29A /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		E4988E8E27C2739A0016F29A /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		E4988E9227C275FD0016F29A /* ruriiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruriiro.png; sourceTree = "<group>"; };
+		E4988E9327C275FD0016F29A /* sorairo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sorairo.png; sourceTree = "<group>"; };
+		E4988E9427C275FD0016F29A /* ao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ao.png; sourceTree = "<group>"; };
+		E4988E9527C275FD0016F29A /* mizuiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mizuiro.png; sourceTree = "<group>"; };
+		E4988E9627C275FD0016F29A /* rurikon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rurikon.png; sourceTree = "<group>"; };
+		E4988E9C27C27CE90016F29A /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
+		E4988E9E27C27FB30016F29A /* Quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz2.csv; sourceTree = "<group>"; };
+		E4988EA027C27FC50016F29A /* Quiz3.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Quiz3.csv; sourceTree = "<group>"; };
+		FA230E0787B2DE85D2B55B70 /* Pods-ColorQuizApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorQuizApp.debug.xcconfig"; path = "Target Support Files/Pods-ColorQuizApp/Pods-ColorQuizApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4988E6C27C239770016F29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCB58CA64344F550943D106 /* Pods_ColorQuizApp.framework in Frameworks */,
+				E403ABC427EABE0E001CAAA5 /* AppTrackingTransparency.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98614168BE39C97C7514912C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E403ABC327EABE0E001CAAA5 /* AppTrackingTransparency.framework */,
+				0506123F5628184839A613BC /* Pods_ColorQuizApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0563C72CD35E07AA7D6141A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA230E0787B2DE85D2B55B70 /* Pods-ColorQuizApp.debug.xcconfig */,
+				15CFED424F7753A214DE4757 /* Pods-ColorQuizApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4988E6627C239770016F29A = {
+			isa = PBXGroup;
+			children = (
+				E4988E7127C239780016F29A /* ColorQuizApp */,
+				E4988E7027C239780016F29A /* Products */,
+				A0563C72CD35E07AA7D6141A /* Pods */,
+				98614168BE39C97C7514912C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4988E7027C239780016F29A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4988E6F27C239780016F29A /* ColorQuizApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4988E7127C239780016F29A /* ColorQuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				E4988E7227C239780016F29A /* AppDelegate.swift */,
+				E4988E7427C239780016F29A /* SceneDelegate.swift */,
+				E4988E7627C239780016F29A /* ViewController.swift */,
+				E4988E7827C239780016F29A /* Main.storyboard */,
+				E4988E9C27C27CE90016F29A /* SelectLevelViewController.swift */,
+				E4988E8827C23DEB0016F29A /* ScoreViewController.swift */,
+				E4988E8627C23D310016F29A /* QuizViewController.swift */,
+				E4988E8A27C23FDF0016F29A /* Quiz1.csv */,
+				E4988E9E27C27FB30016F29A /* Quiz2.csv */,
+				E4988EA027C27FC50016F29A /* Quiz3.csv */,
+				E4988E7B27C2397C0016F29A /* Assets.xcassets */,
+				E4988E7D27C2397C0016F29A /* LaunchScreen.storyboard */,
+				E4988E8027C2397C0016F29A /* Info.plist */,
+				E4988E9127C275FD0016F29A /* iroiro */,
+				E4988E8C27C2739A0016F29A /* image */,
+			);
+			path = ColorQuizApp;
+			sourceTree = "<group>";
+		};
+		E4988E8C27C2739A0016F29A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				E4988E8D27C2739A0016F29A /* correct.png */,
+				E4988E8E27C2739A0016F29A /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		E4988E9127C275FD0016F29A /* iroiro */ = {
+			isa = PBXGroup;
+			children = (
+				E4988E9227C275FD0016F29A /* ruriiro.png */,
+				E4988E9327C275FD0016F29A /* sorairo.png */,
+				E4988E9427C275FD0016F29A /* ao.png */,
+				E4988E9527C275FD0016F29A /* mizuiro.png */,
+				E4988E9627C275FD0016F29A /* rurikon.png */,
+			);
+			name = iroiro;
+			path = ColorQuizApp/iroiro;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4988E6E27C239770016F29A /* ColorQuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4988E8327C2397C0016F29A /* Build configuration list for PBXNativeTarget "ColorQuizApp" */;
+			buildPhases = (
+				9B5CCBE628F1A491E0C70B26 /* [CP] Check Pods Manifest.lock */,
+				E4988E6B27C239770016F29A /* Sources */,
+				E4988E6C27C239770016F29A /* Frameworks */,
+				E4988E6D27C239770016F29A /* Resources */,
+				8B6453DF8047923D92BBC4BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorQuizApp;
+			productName = ColorQuizApp;
+			productReference = E4988E6F27C239780016F29A /* ColorQuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4988E6727C239770016F29A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E4988E6E27C239770016F29A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E4988E6A27C239770016F29A /* Build configuration list for PBXProject "ColorQuizApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4988E6627C239770016F29A;
+			productRefGroup = E4988E7027C239780016F29A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4988E6E27C239770016F29A /* ColorQuizApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4988E6D27C239770016F29A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4988E9727C275FD0016F29A /* ruriiro.png in Resources */,
+				E4988E8F27C2739A0016F29A /* correct.png in Resources */,
+				E4988E9027C2739A0016F29A /* incorrect.png in Resources */,
+				E4988E7F27C2397C0016F29A /* LaunchScreen.storyboard in Resources */,
+				E4988E9B27C275FD0016F29A /* rurikon.png in Resources */,
+				E4988EA127C27FC50016F29A /* Quiz3.csv in Resources */,
+				E4988E8B27C23FE00016F29A /* Quiz1.csv in Resources */,
+				E4988E9F27C27FB30016F29A /* Quiz2.csv in Resources */,
+				E4988E9A27C275FD0016F29A /* mizuiro.png in Resources */,
+				E4988E9827C275FD0016F29A /* sorairo.png in Resources */,
+				E4988E7C27C2397C0016F29A /* Assets.xcassets in Resources */,
+				E4988E7A27C239780016F29A /* Main.storyboard in Resources */,
+				E4988E9927C275FD0016F29A /* ao.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B6453DF8047923D92BBC4BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorQuizApp/Pods-ColorQuizApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorQuizApp/Pods-ColorQuizApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorQuizApp/Pods-ColorQuizApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B5CCBE628F1A491E0C70B26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorQuizApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4988E6B27C239770016F29A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4988E7727C239780016F29A /* ViewController.swift in Sources */,
+				E4988E7327C239780016F29A /* AppDelegate.swift in Sources */,
+				E4988E8927C23DEB0016F29A /* ScoreViewController.swift in Sources */,
+				E4988E7527C239780016F29A /* SceneDelegate.swift in Sources */,
+				E4988E8727C23D320016F29A /* QuizViewController.swift in Sources */,
+				E4988E9D27C27CEA0016F29A /* SelectLevelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4988E7827C239780016F29A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4988E7927C239780016F29A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4988E7D27C2397C0016F29A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4988E7E27C2397C0016F29A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4988E8127C2397C0016F29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4988E8227C2397C0016F29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4988E8427C2397C0016F29A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA230E0787B2DE85D2B55B70 /* Pods-ColorQuizApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 9963978RD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColorQuizApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "色彩クイズ";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "「許可」するとお客さまに最適化された広告が表示されます。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zaki-sta.ColorQuizApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E4988E8527C2397C0016F29A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CFED424F7753A214DE4757 /* Pods-ColorQuizApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.6;
+				DEVELOPMENT_TEAM = 9963978RD9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ColorQuizApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "色彩クイズ";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "「許可」するとお客さまに最適化された広告が表示されます。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zaki-sta.ColorQuizApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4988E6A27C239770016F29A /* Build configuration list for PBXProject "ColorQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4988E8127C2397C0016F29A /* Debug */,
+				E4988E8227C2397C0016F29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4988E8327C2397C0016F29A /* Build configuration list for PBXNativeTarget "ColorQuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4988E8427C2397C0016F29A /* Debug */,
+				E4988E8527C2397C0016F29A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4988E6727C239770016F29A /* Project object */;
+}

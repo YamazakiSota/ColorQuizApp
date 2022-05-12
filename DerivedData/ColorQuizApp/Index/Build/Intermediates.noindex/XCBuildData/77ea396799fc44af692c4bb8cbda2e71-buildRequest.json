@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c982ac7ce8c9b974242c5739305cb35dab243d50b33dc79ed0901df81e44e72c"
+    }
+  ],
+  "containerPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData/ColorQuizApp/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData/ColorQuizApp/Index/Build/Products",
+      "derivedDataPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData/ColorQuizApp/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData/ColorQuizApp/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData/ColorQuizApp/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/DerivedData/ColorQuizApp/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

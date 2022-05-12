@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "3446ba715b7f67f49f9a9e0615cd53de480c3484e89ab1903294beca29b9b9fa"
+build_start_time: [1652363876, 954002857]
+build_end_time: [1652363891, 176367998]
+inputs:
+  "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp/AppDelegate.swift": [1645431596, 384072303]
+  "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp/QuizViewController.swift": [1648003120, 539738178]
+  "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp/SceneDelegate.swift": [1645347320, 38564443]
+  "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp/ScoreViewController.swift": [1648003120, 447801828]
+  ? "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp/SelectLevelViewController.swift"
+  : [1648003120, 420714855]
+  "/Users/yamazakisota/Library/CloudStorage/OneDrive-OsakaUniversity/Xcode/ColorQuizApp/ColorQuizApp/ViewController.swift": [1648089561, 566817283]

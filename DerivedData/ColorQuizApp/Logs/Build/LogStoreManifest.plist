@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1720C57E-B357-4412-9FEE-30C424CD3C08</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1720C57E-B357-4412-9FEE-30C424CD3C08.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorQuizApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorQuizApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ColorQuizApp</string>
+			<key>timeStartedRecording</key>
+			<real>674056595.02656603</real>
+			<key>timeStoppedRecording</key>
+			<real>674056604.97583902</real>
+			<key>title</key>
+			<string>Build ColorQuizApp</string>
+			<key>uniqueIdentifier</key>
+			<string>1720C57E-B357-4412-9FEE-30C424CD3C08</string>
+		</dict>
+		<key>1C891DF5-BF09-40D8-901D-0BFF37569952</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1C891DF5-BF09-40D8-901D-0BFF37569952.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorQuizApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorQuizApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ColorQuizApp</string>
+			<key>timeStartedRecording</key>
+			<real>674056652.93873096</real>
+			<key>timeStoppedRecording</key>
+			<real>674056730.11649501</real>
+			<key>title</key>
+			<string>Build ColorQuizApp</string>
+			<key>uniqueIdentifier</key>
+			<string>1C891DF5-BF09-40D8-901D-0BFF37569952</string>
+		</dict>
+		<key>20A7F6A5-7E70-4A60-A55E-278C2EDA3434</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>20A7F6A5-7E70-4A60-A55E-278C2EDA3434.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorQuizApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorQuizApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean ColorQuizApp</string>
+			<key>timeStartedRecording</key>
+			<real>674054931.99720097</real>
+			<key>timeStoppedRecording</key>
+			<real>674055070.11059201</real>
+			<key>title</key>
+			<string>Clean ColorQuizApp</string>
+			<key>uniqueIdentifier</key>
+			<string>20A7F6A5-7E70-4A60-A55E-278C2EDA3434</string>
+		</dict>
+		<key>46A9832F-F945-453E-A09E-F7CED3D87AAF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>46A9832F-F945-453E-A09E-F7CED3D87AAF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorQuizApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorQuizApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean ColorQuizApp</string>
+			<key>timeStartedRecording</key>
+			<real>674056647.52382398</real>
+			<key>timeStoppedRecording</key>
+			<real>674056647.61920702</real>
+			<key>title</key>
+			<string>Clean ColorQuizApp</string>
+			<key>uniqueIdentifier</key>
+			<string>46A9832F-F945-453E-A09E-F7CED3D87AAF</string>
+		</dict>
+		<key>57838C24-53C6-4FE5-BCD7-269308E95A1E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>57838C24-53C6-4FE5-BCD7-269308E95A1E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorQuizApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorQuizApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ColorQuizApp</string>
+			<key>timeStartedRecording</key>
+			<real>674056619.70774198</real>
+			<key>timeStoppedRecording</key>
+			<real>674056625.19651902</real>
+			<key>title</key>
+			<string>Build ColorQuizApp</string>
+			<key>uniqueIdentifier</key>
+			<string>57838C24-53C6-4FE5-BCD7-269308E95A1E</string>
+		</dict>
+		<key>B03913FA-6950-4FD4-BAC8-924AFE986576</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B03913FA-6950-4FD4-BAC8-924AFE986576.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ColorQuizApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ColorQuizApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean ColorQuizApp</string>
+			<key>timeStartedRecording</key>
+			<real>674056616.95386803</real>
+			<key>timeStoppedRecording</key>
+			<real>674056617.26383698</real>
+			<key>title</key>
+			<string>Clean ColorQuizApp</string>
+			<key>uniqueIdentifier</key>
+			<string>B03913FA-6950-4FD4-BAC8-924AFE986576</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
