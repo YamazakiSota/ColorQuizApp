@@ -12,11 +12,24 @@ import AdSupport
 class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 
+        startButton.layer.cornerRadius = 20.0
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(
+            title:  "戻る",
+            style:  .plain,
+            target: nil,
+            action: nil
+        )
+    
     }
+
 
     
     //ライフサイクルて最後の方のやつ ↓↓↓

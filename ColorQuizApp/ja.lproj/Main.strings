@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4u4-Fh-T6X"; */
+"4u4-Fh-T6X.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "2級レベル (61色)"; ObjectID = "Dyj-7H-C49"; */
+"Dyj-7H-C49.configuration.title" = "2級レベル (61色)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dyj-7H-C49"; */
+"Dyj-7H-C49.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "トップにもどる"; ObjectID = "GYT-yu-8dc"; */
+"GYT-yu-8dc.configuration.title" = "トップにもどる";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GYT-yu-8dc"; */
+"GYT-yu-8dc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pkt-2i-4x3"; */
+"Pkt-2i-4x3.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SMc-3F-QRG"; */
+"SMc-3F-QRG.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xjh-PI-YPv"; */
+"Xjh-PI-YPv.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "スタート"; ObjectID = "bXA-4h-e3a"; */
+"bXA-4h-e3a.configuration.title" = "スタート";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bXA-4h-e3a"; */
+"bXA-4h-e3a.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "1級レベル(122色)"; ObjectID = "bv4-6r-flP"; */
+"bv4-6r-flP.configuration.title" = "1級レベル(122色)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bv4-6r-flP"; */
+"bv4-6r-flP.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ボタン"; ObjectID = "k91-za-QSD"; */
+"k91-za-QSD.normalTitle" = "ボタン";
+
+/* Class = "UIButton"; configuration.title = "結果をシェア"; ObjectID = "rVE-34-Oz2"; */
+"rVE-34-Oz2.configuration.title" = "結果をシェア";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rVE-34-Oz2"; */
+"rVE-34-Oz2.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "この色の名前はなんでしょう?"; ObjectID = "waQ-f8-cju"; */
+"waQ-f8-cju.text" = "この色の名前はなんでしょう?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wf3-1O-jt7"; */
+"wf3-1O-jt7.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yIC-H1-vd6"; */
+"yIC-H1-vd6.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "3級レベル (61色)"; ObjectID = "zok-YD-yHY"; */
+"zok-YD-yHY.configuration.title" = "3級レベル (61色)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zok-YD-yHY"; */
+"zok-YD-yHY.normalTitle" = "Button";

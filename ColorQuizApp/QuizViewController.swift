@@ -38,7 +38,12 @@ class QuizViewController: UIViewController {
         addBannerViewToView(bannarView)
         
         
+        answerButton1.layer.cornerRadius = 20.0
+        answerButton2.layer.cornerRadius = 20.0
+        answerButton3.layer.cornerRadius = 20.0
+        answerButton4.layer.cornerRadius = 20.0
         
+       
         
         
         print("選択したのはレベル\(selectLebel)")

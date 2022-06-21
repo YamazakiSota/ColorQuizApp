@@ -6,6 +6,8 @@
 	<string>ca-app-pub-5041739959288046~1870020259</string>
 	<key>GADIsAdManagerApp</key>
 	<string>true</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ja_JP</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
