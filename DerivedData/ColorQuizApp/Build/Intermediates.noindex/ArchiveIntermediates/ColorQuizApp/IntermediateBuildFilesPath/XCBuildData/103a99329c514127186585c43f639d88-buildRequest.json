@@ -1,0 +1,79 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c982ac7ce8c9b974242c5739305cb35dab243d50b33dc79ed0901df81e44e72c"
+    }
+  ],
+  "containerPath" : "/Users/yamazakisota/ColorQuizApp/ColorQuizApp.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Products",
+      "derivedDataPath" : "/Users/yamazakisota/ColorQuizApp/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/InstallationBuildProductsLocation/OnDemandResources",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/PrecompiledHeaders",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "archive",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

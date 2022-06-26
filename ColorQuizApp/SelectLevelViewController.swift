@@ -16,8 +16,16 @@ class SelectLevelViewController: UIViewController {
     var bannarView: GADBannerView!
     var selectTag = 0
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.hidesBackButton = true
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.setNavigationBarHidden(false, animated: false)
         
         bannarView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         bannarView.adUnitID = "ca-app-pub-5041739959288046/8243856910"
@@ -25,8 +33,29 @@ class SelectLevelViewController: UIViewController {
         bannarView.load(GADRequest())
         addBannerViewToView(bannarView)
         
+        level1Button.layer.cornerRadius = 20.0
+        level2Button.layer.cornerRadius = 20.0
+        level3Button.layer.cornerRadius = 20.0
 
 
+        /*let imageView = UIImageView(image: UIImage(named: "title"))
+        imageView.contentMode = .scaleAspectFit
+        self.navigationItem.titleView = imageView*/
+        
+        if let navigationBar = self.navigationController?.navigationBar {
+            let imageFrame = CGRect(x: (self.view.frame.size.width / 2) - 70, y: 7, width: 134, height: 30)
+            let image = UIImageView(frame: imageFrame)
+            image.image = UIImage(named: "title2")
+            navigationBar.addSubview(image)
+        }
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(
+            title:  "戻る",
+            style:  .plain,
+            target: nil,
+            action: nil
+        )
+        
         // Do any additional setup after loading the view.
     }
     

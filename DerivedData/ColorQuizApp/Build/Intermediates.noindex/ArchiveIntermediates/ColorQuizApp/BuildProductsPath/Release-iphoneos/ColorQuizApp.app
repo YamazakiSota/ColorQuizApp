@@ -1,0 +1,1 @@
+/Users/yamazakisota/ColorQuizApp/DerivedData/ColorQuizApp/Build/Intermediates.noindex/ArchiveIntermediates/ColorQuizApp/InstallationBuildProductsLocation/Applications/ColorQuizApp.app

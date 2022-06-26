@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "367f548d6bcb16d2ee0f7eb7c22dfbc4f0fcbd12627fe2c66be680d7be7f8148"
+build_start_time: [1656262052, 719810009]
+build_end_time: [1656262069, 314396858]
+inputs:
+  "/Users/yamazakisota/ColorQuizApp/ColorQuizApp/AppDelegate.swift": [1645431596, 384072303]
+  "/Users/yamazakisota/ColorQuizApp/ColorQuizApp/QuizViewController.swift": [1656261557, 969163656]
+  "/Users/yamazakisota/ColorQuizApp/ColorQuizApp/SceneDelegate.swift": [1645347320, 38564443]
+  "/Users/yamazakisota/ColorQuizApp/ColorQuizApp/ScoreViewController.swift": [1656262012, 373684883]
+  "/Users/yamazakisota/ColorQuizApp/ColorQuizApp/SelectLevelViewController.swift": [1655921058, 924094438]
+  "/Users/yamazakisota/ColorQuizApp/ColorQuizApp/ViewController.swift": [1655796535, 68687200]

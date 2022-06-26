@@ -17,12 +17,13 @@ class ScoreViewController: UIViewController {
     var correct = 0
 
     override func viewWillAppear(_ animated: Bool) {
-        navigationController?.setNavigationBarHidden(true, animated: false)
+        super.viewWillAppear(animated)
+        navigationItem.hidesBackButton = true
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.setNavigationBarHidden(false, animated: false)
         
         bannarView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         bannarView.adUnitID = "ca-app-pub-5041739959288046/8243856910"
@@ -41,7 +42,7 @@ class ScoreViewController: UIViewController {
     }
     
     @IBAction func shareButtonAction(_ sender: Any) {
-        let activityItems = ["7問中\(correct)問正解しました!!\n#色彩アプリ\nhttps://apps.apple.com/jp/app/%E3%82%AF%E3%82%A4%E3%82%BA%E8%89%B2%E5%BD%A9/id1615005922"]
+        let activityItems = ["7問中\(correct)問正解しました!!\n#色彩クイズ\nhttps://apps.apple.com/jp/app/%E3%82%AF%E3%82%A4%E3%82%BA%E8%89%B2%E5%BD%A9/id1615005922"]
         let activityVC = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
         self.present(activityVC, animated: true)
     }

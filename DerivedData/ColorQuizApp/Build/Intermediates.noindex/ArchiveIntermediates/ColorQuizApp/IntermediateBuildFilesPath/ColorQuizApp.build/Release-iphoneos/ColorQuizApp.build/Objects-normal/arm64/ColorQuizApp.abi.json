@@ -1,0 +1,110 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "AppTrackingTransparency",
+      "printedName": "AppTrackingTransparency",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp"
+    },
+    {
+      "kind": "Import",
+      "name": "AdSupport",
+      "printedName": "AdSupport",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "GoogleMobileAds",
+      "printedName": "GoogleMobileAds",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "GoogleMobileAds",
+      "printedName": "GoogleMobileAds",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "GoogleMobileAds",
+      "printedName": "GoogleMobileAds",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "GoogleMobileAds",
+      "printedName": "GoogleMobileAds",
+      "declKind": "Import",
+      "moduleName": "ColorQuizApp"
+    }
+  ],
+  "json_format_version": 6
+}

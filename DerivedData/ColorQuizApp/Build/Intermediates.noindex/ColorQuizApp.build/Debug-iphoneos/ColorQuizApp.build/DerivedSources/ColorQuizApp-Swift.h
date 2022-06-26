@@ -245,6 +245,7 @@ SWIFT_CLASS("_TtC12ColorQuizApp18QuizViewController")
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified answerButton4;
 @property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified judgeImageView;
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified quizLabel;
+- (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLoad;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (IBAction)btnActionWithSender:(UIButton * _Nonnull)sender;

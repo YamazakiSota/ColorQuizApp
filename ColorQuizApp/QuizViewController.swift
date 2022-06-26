@@ -28,6 +28,12 @@ class QuizViewController: UIViewController {
     var nums = [2, 3, 4, 5]
     var ans = 0
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.hidesBackButton = false
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -67,13 +73,18 @@ class QuizViewController: UIViewController {
         quizLabel.text = quizArray[6]
         
         answerButton1.layer.borderWidth = 1
-        answerButton1.layer.borderColor = UIColor.black.cgColor
+        answerButton1.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
         answerButton2.layer.borderWidth = 1
-        answerButton2.layer.borderColor = UIColor.black.cgColor
+        answerButton2.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
         answerButton3.layer.borderWidth = 1
-        answerButton3.layer.borderColor = UIColor.black.cgColor
+        answerButton3.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
         answerButton4.layer.borderWidth = 1
-        answerButton4.layer.borderColor = UIColor.black.cgColor
+        answerButton4.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+        
+        answerButton1.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+        answerButton2.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+        answerButton3.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+        answerButton4.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
         
         
         if quizArray[1] == String(nums[0] - 1) {
@@ -230,10 +241,14 @@ class QuizViewController: UIViewController {
             self.answerButton2.isHidden = false
             self.answerButton3.isHidden = false
             self.answerButton4.isHidden = false
-            self.answerButton1.layer.borderColor = UIColor.black.cgColor
-            self.answerButton2.layer.borderColor = UIColor.black.cgColor
-            self.answerButton3.layer.borderColor = UIColor.black.cgColor
-            self.answerButton4.layer.borderColor = UIColor.black.cgColor
+            self.answerButton1.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton2.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton3.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton4.layer.borderColor = CGColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton1.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton2.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton3.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
+            self.answerButton4.backgroundColor = UIColor(red:244/255, green:244/255, blue:244/255, alpha:1.0)
             self.nextQuiz()
         }
     }
